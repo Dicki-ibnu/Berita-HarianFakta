@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="atmin.css">
+</head>
+<body class="bg-gray-100">
+    <div class="flex">
+        <!-- Sidebar -->
+        <div class="bg-gray-800 text-white w-64 min-h-screen">
+            <div class="p-4 text-lg font-bold">Administrator</div>
+            <ul class="mt-4">
+                <li class="px-4 py-2 hover:bg-gray-700"><a href="#">Dashboard</a></li>
+                <li class="px-4 py-2 hover:bg-gray-700"><a href="#">Berita</a></li>
+                <li class="px-4 py-2 hover:bg-gray-700"><a href="../kategori/categories-entry.html">Input Berita</a></li>
+                <li class="px-4 py-2 hover:bg-gray-700"><a href="../kategori/list-berita.html">List Berita</a></li>
+                <li class="px-4 py-2 hover:bg-gray-700"><a href="#">Pengaturan</a></li>
+                <li class="px-4 py-2 hover:bg-gray-700"><a href="#">Logout</a></li>
+            </ul>
+        </div>
+        <!-- Main Content -->
+        <div class="flex-1">
+            <div class="bg-blue-500 text-white p-4 flex justify-between items-center">
+                <button class="text-white"><i class="fas fa-bars"></i></button>
+                <div class="text-lg font-bold">Admin Dashboard</div>
+                <div class="flex items-center">
+                    <span class="mr-4">Admin</span>
+                    <button class="text-white"><i class="fas fa-user-circle"></i></button>
+                </div>
+            </div>
+            <div class="p-4">
+                <h1 class="text-2xl font-bold mb-4">Selamat Datang, Admin!</h1>
+                <div class="bg-white p-6 rounded shadow">
+                    <p class="text-lg">Anda telah berhasil log in ke sistem. Silakan pilih menu di sebelah kiri untuk mengelola konten.</p>
+                </div>
+            </div>
+            <div class="bg-gray-200 text-center p-4">
+                <p>Copyright © 2024 Detailed Technology Center. All rights reserved.</p>
+                <p>Version 2.3.0</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

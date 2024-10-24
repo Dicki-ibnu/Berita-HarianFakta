@@ -1,0 +1,51 @@
+/* Font utama */
+.main-font {
+  font-family: Newsreader, "Noto Sans", sans-serif;
+}
+
+/* Gambar latar belakang untuk bagian 'Trending' */
+.bg-image-1 {
+  background-image: url("https://cdn.usegalileo.ai/stability/48df04ab-b43e-498d-952f-e6a288b2fe32.png");
+}
+
+.bg-image-2 {
+  background-image: url("https://cdn.usegalileo.ai/stability/f3c38e7e-baba-4476-b496-a1279aed6a5c.png");
+}
+
+.bg-image-3 {
+  background-image: url("https://cdn.usegalileo.ai/sdxl10/bb232bbc-6ac7-410e-aa2e-e9820842b1d7.png");
+}
+
+.bg-image-4 {
+  background-image: url("https://cdn.usegalileo.ai/sdxl10/4b9359be-b110-44f1-9ad2-1a8a0adfa441.png");
+}
+
+/* Gambar latar belakang untuk bagian 'Top stories' */
+.bg-image-5 {
+  background-image: url("https://cdn.usegalileo.ai/sdxl10/72f2e5ed-9c74-416b-9a59-ea6451e56f45.png");
+}
+
+.bg-image-6 {
+  background-image: url("https://cdn.usegalileo.ai/stability/37ece992-1871-4cb2-bb8e-c94f15c592cc.png");
+}
+
+.bg-image-7 {
+  background-image: url("https://cdn.usegalileo.ai/stability/8977fd65-1f68-40e1-ac3f-3c27ba30b283.png");
+}
+
+.bg-image-8 {
+  background-image: url("https://cdn.usegalileo.ai/sdxl10/36ce480d-5ee7-49ac-a1d9-90941f6c6db2.png");
+}
+
+/* Gambar latar belakang untuk bagian 'Breaking news' */
+.bg-image-9 {
+  background-image: url("https://cdn.usegalileo.ai/stability/39f7e066-cb78-4f86-91a5-98e3ca047b3e.png");
+}
+
+.bg-image-10 {
+  background-image: url("https://cdn.usegalileo.ai/sdxl10/eb17bf4f-2477-42fd-8e34-c72ff95c1b87.png");
+}
+
+.bg-image-11 {
+  background-image: url("https://cdn.usegalileo.ai/stability/7777e180-231b-4663-8206-45f508c00171.png");
+}

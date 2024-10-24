@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link href="register.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Signup Form</h2>
+        <div class="signup-button">
+            Signup
+        </div>
+        <form id="signupForm">
+            <div>
+                <input id="email" type="email" placeholder="Email Address" required>
+            </div>
+            <div>
+                <input id="password" type="password" placeholder="Password" required>
+            </div>
+            <div>
+                <input id="confirmPassword" type="password" placeholder="Confirm password" required>
+            </div>
+            <div class="submit-button">
+                <button type="submit">Signup</button>
+            </div>
+        </form>
+    </div>
+    <script>
+        document.getElementById('signupForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+
+            if (password !== confirmPassword) {
+                alert("Passwords Tidak Sama!");
+                return;
+            }
+
+            const successMessage = document.createElement('div');
+            successMessage.textContent = 'Berhasil! Akun Anda Telah Dibuat.';
+            successMessage.style.backgroundColor = 'green';
+            successMessage.style.color = 'white';
+            successMessage.style.padding = '10px';
+            successMessage.style.marginTop = '10px';
+            successMessage.style.textAlign = 'center';
+
+            const container = document.querySelector('.container');
+            container.prepend(successMessage);
+        });
+    </script>
+</body>
+</html>
