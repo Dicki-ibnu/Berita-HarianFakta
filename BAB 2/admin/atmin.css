@@ -1,0 +1,80 @@
+/* styles.css */
+
+/* Sidebar */
+.sidebar {
+    background-color: #2d3748; /* Tailwind's gray-800 */
+    color: white;
+    width: 16rem; /* Tailwind's w-64 */
+    min-height: 100vh; /* Tailwind's min-h-screen */
+}
+
+.sidebar .p-4 {
+    padding: 1rem; /* Tailwind's p-4 */
+    font-size: 1.125rem; /* Tailwind's text-lg */
+    font-weight: 700; /* Tailwind's font-bold */
+}
+
+.sidebar ul {
+    margin-top: 1rem; /* Tailwind's mt-4 */
+}
+
+.sidebar ul li {
+    padding: 0.5rem 1rem; /* Tailwind's px-4 py-2 */
+}
+
+.sidebar ul li:hover {
+    background-color: #4a5568; /* Tailwind's hover:bg-gray-700 */
+}
+
+/* Header */
+.header {
+    background-color: #4299e1; /* Tailwind's bg-blue-500 */
+    color: white;
+    padding: 1rem; /* Tailwind's p-4 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .text-lg {
+    font-size: 1.125rem; /* Tailwind's text-lg */
+    font-weight: 700; /* Tailwind's font-bold */
+}
+
+.header .flex {
+    display: flex;
+    align-items: center;
+}
+
+.header .mr-4 {
+    margin-right: 1rem; /* Tailwind's mr-4 */
+}
+
+/* Main Content */
+.p-4 {
+    padding: 1rem; /* Tailwind's p-4 */
+}
+
+.text-2xl {
+    font-size: 1.5rem; /* Tailwind's text-2xl */
+    font-weight: 700; /* Tailwind's font-bold */
+    margin-bottom: 1rem; /* Tailwind's mb-4 */
+}
+
+.content {
+    background-color: white;
+    padding: 1.5rem; /* Tailwind's p-6 */
+    border-radius: 0.375rem; /* Tailwind's rounded */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Tailwind's shadow */
+}
+
+.text-lg {
+    font-size: 1.125rem; /* Tailwind's text-lg */
+}
+
+/* Footer */
+.footer {
+    background-color: #edf2f7; /* Tailwind's bg-gray-200 */
+    text-align: center;
+    padding: 1rem; /* Tailwind's p-4 */
+}
