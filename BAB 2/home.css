@@ -1,0 +1,123 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F9FAFB;
+    color: #1F2937;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+header .flex.items-center.space-x-2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header .flex.items-center.space-x-2 i {
+    font-size: 1.25rem;
+    color: #000000;
+}
+
+header .flex.items-center.space-x-2 span {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+header .flex.items-center.space-x-4 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header .relative {
+    position: relative;
+}
+
+header .relative input {
+    padding-left: 2.5rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 9999px;
+    border: 1px solid #D1D5DB;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+header .relative input:focus {
+    border-color: #3B82F6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+header .relative i {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #9CA3AF;
+}
+
+header button {
+    background-color: #3B82F6;
+    color: #FFFFFF;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 9999px;
+}
+
+header i.fas.fa-bell {
+    font-size: 1.25rem;
+    color: #9CA3AF;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+section .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+section .text-center {
+    text-align: center;
+}
+
+section .text-center img {
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+section .text-center span {
+    display: block;
+}
+
+article h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+article p.text-gray-500 {
+    color: #6B7280;
+    margin-bottom: 0.5rem;
+}
